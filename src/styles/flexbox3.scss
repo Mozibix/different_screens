@@ -1,0 +1,12 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex3_main {
+  background-color: $flex3_bg;
+  border-radius: 20px;
+}

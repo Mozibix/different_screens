@@ -1,0 +1,91 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex_main {
+  height: 926px;
+  width: 428px;
+}
+
+.flex_img {
+  height: 462px;
+  width: 405px;
+  border-radius: 0px;
+  margin-bottom: 71px;
+  inset: 0 10px;
+
+  img {
+    height: 462px;
+    width: 405px;
+    border-radius: 0px;
+  }
+}
+
+.header_text {
+  margin-bottom: 14px;
+  p {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $text_white;
+  }
+}
+
+.quote_sec {
+  height: 84px;
+  width: 310px;
+  border-radius: nullpx;
+  p {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    inset-inline-start: 3.5rem;
+    color: $text_white;
+  }
+}
+
+.radio_sec {
+  text-align: center;
+  margin-bottom: 100px;
+
+  input {
+    margin-left: 10px;
+    accent-color: $text_black;
+
+    &.radio {
+      border: none;
+    }
+  }
+}
+
+.skip_next {
+  display: flex;
+  justify-content: space-between;
+  inset: -3rem 0;
+  padding-inline: 25px;
+}
+
+button {
+  height: 63px;
+  width: 311px;
+  border-radius: 50px;
+  margin: -2rem 0;
+  inset: -3rem 3.5rem;
+  border: none;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
