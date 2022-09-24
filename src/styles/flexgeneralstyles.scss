@@ -9,19 +9,31 @@
 .flex_main {
   height: 926px;
   width: 428px;
+
+  @media screen and (max-width: 768px) {
+    width: 350px;
+    margin-left: 1rem;
+  }
 }
 
 .flex_img {
   height: 462px;
-  width: 405px;
   border-radius: 0px;
   margin-bottom: 71px;
   inset: 0 10px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: -3rem;
+  }
 
   img {
     height: 462px;
     width: 405px;
     border-radius: 0px;
+    @media screen and (max-width: 768px) {
+      height: 302px;
+      width: 260px;
+      inset-inline-start: 2rem;
+    }
   }
 }
 
@@ -35,6 +47,11 @@
     letter-spacing: 0em;
     text-align: center;
     color: $text_white;
+
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      font-weight: 600;
+    }
   }
 }
 
@@ -51,6 +68,10 @@
     text-align: center;
     inset-inline-start: 3.5rem;
     color: $text_white;
+
+    @media screen and (max-width: 768px) {
+      inset-inline-start: 1.5rem;
+    }
   }
 }
 
@@ -88,4 +109,9 @@ button {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: center;
+  
+  @media screen and (max-width: 768px) {
+    
+    inset: -3rem 1.5rem;
+  }
 }
